@@ -1,0 +1,63 @@
+
+public interface ReprodutorMusical {
+    void reproduzirMusica(String musica);
+    void pausarMusica();
+    void avançarMusica();
+    void retrocederMusica();
+}
+
+
+public interface AparelhoTelefonico {
+    void fazerLigacao(String numero);
+    void receberLigacao(String numero);
+    void encerrarLigacao();
+}
+
+
+public interface NavegadorInternet {
+    void abrirPaginaWeb(String url);
+    void fecharPaginaWeb();
+    void navegarPaginaWeb(String url);
+}
+
+public class IPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet {
+    @Override
+    public void reproduzirMusica(String musica) {
+    }
+
+    @Override
+    public void pausarMusica() {
+    }
+
+    @Override
+    public void avançarMusica() {
+    }
+
+    @Override
+    public void retrocederMusica() {
+    }
+
+    @Override
+    public void fazerLigacao(String numero) {
+    }
+
+    @Override
+    public void receberLigacao(String numero) {
+    }
+
+    @Override
+    public void encerrarLigacao() {
+    }
+
+    @Override
+    public void abrirPaginaWeb(String url) {
+    }
+
+    @Override
+    public void fecharPaginaWeb() {
+    }
+
+    @Override
+    public void navegarPaginaWeb(String url) {
+    }
+}
